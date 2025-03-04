@@ -4,5 +4,5 @@ parameters = [
   { name = "dev.frontend.user_url", value = "http://user-dev.saikumar22.store:8080/" },
   { name = "dev.frontend.shipping_url", value = "http://shipping-dev.saikumar22.store:8080/" },
   { name = "dev.frontend.payment_url", value = "http://payment-dev.saikumar22.store:8080/" },
-  { name = "dev.catalogue.mongo_endpoint", value = "mongo-dev.saikumar22.store" }
+  { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.saikumar22.store" }
 ]
