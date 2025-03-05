@@ -12,5 +12,7 @@ parameters = [
   { name = " dev.user.mongo_url", value = "mongodb://mongodb-dev.saikumar22.store:27017/users" },
   { name = " dev.cart.redis_host", value = "redis-dev.saikumar22.store" },
   { name = " dev.cart.catalogue_host", value = "catalogue-dev.saikumar22.store" },
-  { name = " dev.cart.catalogue_port", value = "8080" }
+  { name = " dev.cart.catalogue_port", value = "8080" },
+  { name = " dev.shipping.cart_endpoint", value = "cart-dev.saikumar22.store:8080" },
+  { name = " dev.shipping.db_host", value = "mysql-dev.saikumar22.store" }
 ]
